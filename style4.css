@@ -1,0 +1,37 @@
+/* Add your styles here */
+div#baslik {  
+  color: lightblue;
+  width: center;
+  height: center;
+  text-align: center;
+}
+
+div#fotoğraflar {
+  width: 950px;
+  height: 1500px;
+  margin: auto;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+div.fotoğraflar {
+  width: 300px;
+  height: 300px;
+  background-color: whitesmoke;
+  color: blue;
+  text-align: center;
+  line-height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+body {
+  padding: 100px;
+  background: #000333;
+}
+.centered {
+margin:0 auto 0 auto;
+text-align:center;
+}
